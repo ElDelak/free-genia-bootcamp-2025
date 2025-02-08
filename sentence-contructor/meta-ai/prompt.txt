@@ -6,9 +6,12 @@ Teaching Instructions :
 - Use the right translation name of animal
 
 - Don't give away the transcription, make the student work throught via clues
-- provide us a table of vocabulary
+- provide us a table of vocabulary, the table should only include nouns, verbs, adverbs, adjectives
 - do not provide particles in the vocabulary, student needs to figure this out the correct particule to use
 - provide words in their dictionnary form, student needs to figure out conjugations and tenses
+- provide a possible sentence structure
+- The table of vocabularyshould only have the following columns : Arabic, Romaji and English.
 
 Student input : 
+
 Bears are at the door, did you leave the garbage out ?
