@@ -13,9 +13,54 @@ A language learning school wants to build a prototype of learning which will act
 - The backend will be built using Go
 - The database will be SQLite3
 - The API will be built using GIN
+- Mage is a task runner for Go
 - The API will always return JSON
 - There will no authentication or authorization
 - Everything will be traited as a single user
+
+## Directory structure
+
+```text
+backend_go/
+├── main.go
+├── go.mod
+├── go.sum
+├── internal/
+│   ├── database/
+│   │   ├── db.go
+│   │   ├── schema.sql
+│   │   └── words.db
+│   ├── db/
+│   │   ├── migrations/
+│   │   │   ├── 0001_init.sql
+│   │   │   ├── 0002_create_words_table.sql
+│   │   │   └── 0003_create_groups_table.sql
+│   │   └── seeds/
+│   │       ├── words.json
+│   │       └── groups.json
+│   ├── handlers/
+│   │   ├── dashboard.go
+│   │   ├── study_sessions.go
+│   │   └── words.go
+│   ├── models/
+│   │   ├── study_session.go
+│   │   ├── word.go
+│   │   └── word_review_item.go
+│   ├── repositories/
+│   │   ├── study_session_repository.go
+│   │   ├── word_repository.go
+│   │   └── word_review_item_repository.go
+│   └── services/
+│       ├── study_session_service.go
+│       ├── word_service.go
+│       └── word_review_item_service.go
+├── magefile.go
+└── pkg/
+    ├── ginutils/
+    │   └── ginutils.go
+    └── sqliteutils/
+        └── sqliteutils.go
+```
 
 ## Database Schema
 

@@ -1,0 +1,47 @@
+[
+    {
+        "arabic": "مرحبا",
+        "romaji": "marhaba",
+        "english": "hello",
+        "parts": {
+            "type": "greeting",
+            "formality": "neutral"
+        }
+    },
+    {
+        "arabic": "شكرا",
+        "romaji": "shukran",
+        "english": "thank you",
+        "parts": {
+            "type": "courtesy",
+            "formality": "neutral"
+        }
+    },
+    {
+        "arabic": "واحد",
+        "romaji": "wahid",
+        "english": "one",
+        "parts": {
+            "type": "number",
+            "value": 1
+        }
+    },
+    {
+        "arabic": "اثنان",
+        "romaji": "ithnan",
+        "english": "two",
+        "parts": {
+            "type": "number",
+            "value": 2
+        }
+    },
+    {
+        "arabic": "ثلاثة",
+        "romaji": "thalatha",
+        "english": "three",
+        "parts": {
+            "type": "number",
+            "value": 3
+        }
+    }
+]
